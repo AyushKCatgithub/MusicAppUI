@@ -2,7 +2,7 @@ package eu.tutorials.musicappui.ui.theme
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.R
+
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -18,6 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import eu.tutorials.musicappui.R
 
 @Composable
 fun AccountView(){
@@ -48,7 +49,7 @@ fun AccountView(){
 
         Row(modifier = Modifier.padding(top = 16.dp)) {
             Icon(
-                painter = painterResource(id = eu.tutorials.musicappui.R.drawable.baseline_music_video_24),
+                painter = painterResource(id = R.drawable.baseline_music_video_24),
                 contentDescription = "My Music",
                 modifier = Modifier.padding(end = 8.dp)
             )
